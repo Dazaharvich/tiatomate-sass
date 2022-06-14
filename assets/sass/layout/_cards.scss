@@ -1,0 +1,62 @@
+        /* ---------------PRODUCTOS------------- */
+        
+        .product__card-1{
+            padding: 5rem;
+            background-color: $bg-color2;
+            img{
+                width: 70%;
+            }
+            @include card-flex(center, center, wrap, column);
+            h2{
+                padding: 2rem;
+                color: $color-font1;
+                font-weight: $font-bold;
+                font-size: $size-large;
+            }
+            p{
+                padding: 1rem;
+                color:$color-font1;
+                font-weight: $font-regular;
+                font-size: $size-medium;
+            }
+        }
+
+        .product__card-2{
+            padding: 5rem;
+            img{
+                width: 70%;
+            }
+            @include card-flex(center, center, wrap, column);
+            h2{
+                padding: 2rem;
+                color: $color-font2;
+                font-weight: $font-bold;
+                font-size: $size-large;
+            }
+            p{
+                padding: 1rem;
+                color:$color-font2;
+                font-weight: $font-regular;
+                font-size: $size-medium;
+            }
+        }
+
+        .parrafo{
+            @include card-flex(center, center, wrap, column);
+            width: 50%;
+        }
+
+        /* -----------------NOSOTROS----------- */
+
+        .card-3{
+            @extend .product__card-2;
+            img{
+                width: 40%;
+            }
+        }
+        .card-4{
+            @extend .product__card-2;
+            img{
+                width: 40%;
+            }
+        }

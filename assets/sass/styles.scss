@@ -1,0 +1,14 @@
+/* UTILITIES */
+@import 'utilities/variables';
+@import 'utilities/mixins';
+/* BASE */
+@import 'base/reset';
+@import 'base/_typo';
+
+/* LAYOUT */
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/cards';
+@import 'layout/nosotros';
+@import 'layout/contacto';
+@import 'layout/footer';

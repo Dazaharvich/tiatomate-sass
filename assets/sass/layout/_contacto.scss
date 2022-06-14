@@ -1,0 +1,29 @@
+.contacto{
+    background-color: $bg-color1;
+    @extend .hero;
+    height: 20rem;
+
+    .contacto__title{
+        font-size: $size-large;
+    }
+
+    .contacto__button--send{
+        width: 25%;
+        height: 25%;
+        background-color: $btn-color;
+        border: solid 1px $btn-border;
+        border-radius: 100px;
+        margin-top: 50px;
+        font-size: $size-large;
+        color: $color-font2;
+        font-weight: $font-bold;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        transition-duration: 0.4s;
+        
+        &:hover{
+            background-color: $bg-color2;
+            color: $color-font1;
+        }
+    }
+
+}

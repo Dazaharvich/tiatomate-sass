@@ -1,0 +1,8 @@
+.footer{
+    @include card-flex(center, center, wrap, column);
+    background-color: $bg-color3;
+    height: 20rem;
+    .footer__img{
+        width: 15%;
+    }
+}

@@ -1,0 +1,270 @@
+/* UTILITIES */
+/* BASE */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* LAYOUT */
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 60%;
+  padding: 1rem 0 1rem 6rem;
+}
+
+.nav .nav__img {
+  width: 30%;
+}
+
+.hero, .nosotros, .contacto {
+  background-color: #E56353;
+  height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.hero p, .nosotros p, .contacto p {
+  font-weight: 200;
+  font-size: 100px;
+}
+
+.hero h2, .nosotros h2, .contacto h2 {
+  font-weight: 700;
+  font-size: 100px;
+}
+
+/* ---------------PRODUCTOS------------- */
+.product__card-1 {
+  padding: 5rem;
+  background-color: #91918D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product__card-1 img {
+  width: 70%;
+}
+
+.product__card-1 h2 {
+  padding: 2rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.product__card-1 p {
+  padding: 1rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.product__card-2, .card-3, .card-4 {
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product__card-2 img, .card-3 img, .card-4 img {
+  width: 70%;
+}
+
+.product__card-2 h2, .card-3 h2, .card-4 h2 {
+  padding: 2rem;
+  color: #686963;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.product__card-2 p, .card-3 p, .card-4 p {
+  padding: 1rem;
+  color: #686963;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+/* -----------------NOSOTROS----------- */
+.card-3 img {
+  width: 40%;
+}
+
+.card-4 img {
+  width: 40%;
+}
+
+.nosotros {
+  height: 20rem;
+}
+
+.contacto {
+  background-color: #E56353;
+  height: 20rem;
+}
+
+.contacto .contacto__title {
+  font-size: 50px;
+}
+
+.contacto .contacto__button--send {
+  width: 25%;
+  height: 25%;
+  background-color: #FAFAFA;
+  border: solid 1px #A0A0A0;
+  border-radius: 100px;
+  margin-top: 50px;
+  font-size: 50px;
+  color: #686963;
+  font-weight: 700;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.contacto .contacto__button--send:hover {
+  background-color: #91918D;
+  color: #fff;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #686963;
+  height: 20rem;
+}
+
+.footer .footer__img {
+  width: 15%;
+}
+/*# sourceMappingURL=styles.css.map */

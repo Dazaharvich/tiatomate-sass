@@ -1,0 +1,8 @@
+@mixin card-flex($eje-principal, $eje-cruzado, $wrap, $flex-direction) {
+    display: flex;
+    justify-content: $eje-principal;
+    align-items: $eje-cruzado;
+    flex-wrap: $wrap;
+    flex-direction: $flex-direction;
+
+}
